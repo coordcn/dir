@@ -1,0 +1,27 @@
+{
+  "name": "dir",
+  "description": "directory",
+  "main": "./index",
+  "author": "Qian Ye <coordcn@163.com>",
+  "version": "0.1.0",
+  "keywords": [
+    "directory",
+    "mkdir",
+    "rm"
+    "walk",
+    "watch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coordcn/dir.git"
+  },
+  "bugs":{
+    "url": "https://github.com/coordcn/dir/issues"
+  },
+  "licenses": [
+    {
+      "type": "The MIT License (MIT)",
+      "url": "https://github.com/coordcn/dir/blob/master/LICENSE"
+    }
+  ]
+}
