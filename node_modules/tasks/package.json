@@ -1,0 +1,29 @@
+{
+  "name": "tasks",
+  "description": "async tasks for node.js ",
+  "main": "./lib/tasks",
+  "author": "Qian Ye <coordcn@163.com>",
+  "version": "0.1.0",
+  "keywords": [
+    "async",
+    "tasks",
+    "parallel",
+    "series"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coordcn/tasks.git"
+  },
+  "bugs":{
+    "url": "https://github.com/coordcn/tasks/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/coordcn/tasks/blob/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "node test/test-tasks.js"
+  }
+}
