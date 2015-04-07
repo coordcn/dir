@@ -389,7 +389,7 @@ describe('dir.watchSync(path, fn, interval)', function(){
     var watcher = dir.watchSync(folderxx, function(event, file){
       if(flag){
         flag = false;
-        assert.ok(event === 'rename');
+        assert.ok(event === 'change');
         assert.ok(file === 'test1.js');
       }
     });
@@ -578,6 +578,6 @@ describe('dir.rmSync(path, regexp)', function(){
   });
   
   it('dir.rmSync(' + '/dirtest)', function(){
-    dir.rmSync('/dirtest');
+    dir.rmSync(['/dirtest', 'e:']);
   });
 });

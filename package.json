@@ -1,13 +1,13 @@
 {
   "name": "dir",
-  "description": "directory",
+  "description": "directory functions",
   "main": "./index",
   "author": "Qian Ye <coordcn@163.com>",
   "version": "0.1.0",
   "keywords": [
-    "directory",
+    "dir",
     "mkdir",
-    "rm"
+    "rm",
     "walk",
     "watch"
   ],

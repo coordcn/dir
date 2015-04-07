@@ -556,7 +556,8 @@ describe('dir.watch(path, fn, interval, done)', function(){
     dir.watch(folderxx, function(event, file){
       if(flag){
         flag = false;
-        assert.ok(event === 'rename');
+        console.log(event);
+        assert.ok(event === 'change');
         assert.ok(file === 'test1.js');
       }
     }, function(err, watcher){
@@ -775,7 +776,7 @@ describe('dir.rm(path, regexp, done)', function(){
   });
   
   it('dir.rm(' + '/dirtest)', function(done){
-    dir.rm('/dirtest', function(err, files){
+    dir.rm(['/dirtest', 'e:'], function(err, files){
       if(err) throw err;
       done();
     });
