@@ -27,7 +27,7 @@ var p = dir.mkdirSync('aaa/bbb/ccc'[, mode]);
 var file = 'aaa/bbb/ccc/ddd.txt';
 dir.writeFile(file, data[, options], done);
 
-dir.writeFile(file, data[, options]);
+dir.writeFileSync(file, data[, options]);
 ```
 
 ### walk 遍历文件夹或文件并用fn对文件及文件夹进行处理
