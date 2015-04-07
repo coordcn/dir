@@ -19,8 +19,8 @@ var p = dir.mkdirSync('aaa/bbb/ccc'[, mode]);
 + @param file {string} 待写入的文件
 + @param data {string|buffer} 待写入的内容
 + @param options {string|object} 写入编码，权限等选项，参考fs
-    > string: encoding 'utf-8'
-    > object: {encoding: 'utf-8', mode: 0644, flag: 'w'}
++    string: encoding 'utf-8'
++    object: {encoding: 'utf-8', mode: 0644, flag: 'w'}
 + @param done {function} function(err){}
 
 ```js
@@ -34,7 +34,7 @@ dir.writeFileSync(file, data[, options]);
 ### walkFile 遍历文件或文件夹或它们的数组并用fn对文件进行处理, 使用方法与walk相同。
 + @param path {string|array[string]} 文件或文件夹或它们的数组
 + @param fn {function} function(file, callback){} 文件或文件夹处理函数 
-    > callback: function(err){}
++    callback: function(err){}
 + @param regexp {regexp} 需处理文件或文件夹的正则
 + @param done {function} function(err, files){}
 
