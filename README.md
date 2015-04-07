@@ -19,7 +19,7 @@ var p = dir.mkdirSync('aaa/bbb/ccc'[, mode]);
 + @param file {string} 待写入的文件
 + @param data {string|buffer} 待写入的内容
 + @param options {string|object} 写入编码，权限等选项，参考fs
-+    string: encoding 'utf-8'
+    >> string: encoding 'utf-8'
 +    object: {encoding: 'utf-8', mode: 0644, flag: 'w'}
 + @param done {function} function(err){}
 
